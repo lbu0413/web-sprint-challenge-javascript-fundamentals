@@ -37,9 +37,13 @@ A callback function is the function that gets passed into a higher order functio
 a combination of functions. inner functions can have access to outter functions.
 
 4. Describe the four rules of the 'this' keyword.
-
+    1. Window Binding
+    2. Imblicit Binding, whenever a function is called by a preceding dot, the object before that dot is this.
+    3. New Binding, whenever a constructor function is used, this refers to the specific instance of the object.
+    4. Explicit Binding, whenever .call or .apply method is used.
 5. Why do we need super() in an extended class?
-
+    super() is used to access and call functions on an object's parent.
+    to inherit its parent's attributes.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
